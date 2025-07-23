@@ -13,7 +13,7 @@ There is no necessary environment to run these scripts but you will need to pull
 
 Files in this folder pertain to the hierarchical injections and recoveries showcased in Sec. VI of the relevant manuscript.
 
-Install with `conda env create -f env.yml` This will install all the latest dependencies, from the correct place, so that `popstock` will work with JAX (from the `meyers-academic` fork and `jax` branch), and the newest version of `westley` is installed for parallel tempering.
+You will need an environment to run these scripts. Install with `conda env create -f env.yml` This will install all the latest dependencies, from the correct place, so that `popstock` will work with JAX (from the `meyers-academic` fork and `jax` branch), and the newest version of `westley` is installed for parallel tempering.
 
 To run the hierarchical sampler, please run the `run_hierarchical_analysis.py` script in the `westley_fitter` environment created above. The `run_hierarchical_analysis.py` saves three files as outputs: 
 1. `tmp_jax_machinery.pkl` : Includes the injected signals and parameters as well as starting knot locations in the frequency space. These quantities and objects are useful for computations using the sampler results or if one wishes to resample using the same starting injections. 
