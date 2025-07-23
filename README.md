@@ -23,4 +23,4 @@ To run the hierarchical sampler, please run the `run_hierarchical_analysis.py` s
 3. `tmp_jax_omegas_{N_samples}.pkl` : Includes the computed Omega(f) draws computed from each of the redshift space posteriors. These computed profiles are plotted in Fig. 8b. 
 
 
-For questions about this repository, please contact Taylor Knapp (tknapp@caltech.edu). Thank you!
+For questions about this repository, please contact Taylor Knapp (tknapp@caltech.edu). Instructional notebooks will be added soon. Thank you!
