@@ -9,6 +9,8 @@ Files in this folder pertain to the injections and recoveries showcased in Sec. 
 
 There is no necessary environment to run these scripts but you will need to pull `git@github.com:meyers-academic/astrophysical_gwb.git`.
 
+To run the sampler in frequency space, please run `tsf_fitter.py`. The output is a `{sig_type}_signal_data_{T/(24 * 60 * 60)}_{noise}_spline.pkl` file that includes the injected frequencies, data, and noise as well as the results object for the fitter. 
+
 ## Section VI
 
 Files in this folder pertain to the hierarchical injections and recoveries showcased in Sec. VI of the relevant manuscript.
