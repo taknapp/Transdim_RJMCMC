@@ -13,5 +13,6 @@ Files in this folder pertain to the hierarchical injections and recoveries showc
 
 Install with `conda env create -f env.yml` This will install all the latest dependencies, from the correct place, so that `popstock` will work with JAX (from the `meyers-academic` fork and `jax` branch), and the newest version of `westley` is installed for parallel tempering.
 
+To run the hierarchical sampler, please run the `run_hierarchical_analysis.py` script in the `westley_fitter` environment created above. 
 
 For questions about this repository, please contact Taylor Knapp (tknapp@caltech.edu). Thank you!
