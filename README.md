@@ -7,6 +7,8 @@ The organization of both folders is for ease in downloading and running the asso
 
 Files in this folder pertain to the injections and recoveries showcased in Sec. V of the relevant manuscript. 
 
+There is no necessary environment to run these scripts but you will need to pull `git@github.com:meyers-academic/astrophysical_gwb.git`.
+
 ## Section VI
 
 Files in this folder pertain to the hierarchical injections and recoveries showcased in Sec. VI of the relevant manuscript.
